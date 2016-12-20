@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box !important;
+}
+
+
+html {
+    font-size: 25px;
+}
+
+
+
+body {
+    background: url("../images/bckgrndImg.jpg") no-repeat center center fixed;
+    /*background: linear-gradient(black, white); */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*font-size: 25px;*/
+    
+    
+}
+
+.gameTitle {
+    /*width: 100%;*/
+    background-color: white;
+    color: #030c95;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    /*border-radius: 5px;*/
+    border: 2px #030c95 solid;
+    text-align: center;
+}
+
+.instructions {
+    /*width: 100%;*/
+    background-color: #ddd;
+    color: #1a0f85;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 2px #030c95 solid;
+}
+
+#numDisplay {
+    background-color: #ddd;
+    color: #1a0f85;
+    /*width: 50%;*/
+    padding: 20px;
+    /*margin-left: -15px;*/
+    height: 100%;
+    padding-bottom: 45px;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px #030c95 solid;
+    float: left;
+
+
+}
+
+#wins-losses {
+    background-color: #ddd;
+    /*width: 50%;*/
+    height: 100%;
+    color: #1a0f85;
+    margin-left: 10px;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    border-radius: 5px;
+    border: 2px #030c95 solid;
+    float: left;
+}
+
+.crystals img {
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    border-radius: 5px;
+    border: 2px gold solid;
+    /*margin-left: -15px;*/
+    /*float: left;*/
+    
+}
+
+/*.crystal-choices {
+    margin-top: 10px;
+    margin-left: -15px !important;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}*/
+
+
+
+.gem img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: 2px #030c95 solid;
+
+}
+
+.gem:hover {
+    cursor: pointer;
+    opacity: .85;
+    border: 4px #030c95 solid;
+}
+
+
+#currentScore {
+    background-color: #ddd;
+    color: #1a0f85;
+    /*width: 50%;*/
+    padding: 20px;
+    margin-top: 10px;
+    /*margin-left: -15px;*/
+    height: 100%;
+    padding-bottom: 45px;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px #030c95 solid;
+    float: left;
+}
+
+#counter {
+    font-weight: bolder;
+}
+
+
+/*Responsive Rules*/
+@media screen and (max-width:1280px) {
+        .crystals img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
+
+@media screen and (max-width:980px) {
+        .crystals img {
+        width: 175px;
+        height: 175px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .crystals img {
+        width: 125px;
+        height: 125px;
+        float: left;
+    }
+    }
+
+@media only screen and (max-width: 640px){
+ 
+    .crystals img {
+        width: 100px;
+        height: 100px;
+        float: left;
+    }
+    .gem img {
+        float: left;
+}*/
